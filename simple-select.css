@@ -1,0 +1,59 @@
+/* ALL STYLES FOR GENERAL BASIC SELECT - NO THEMING */
+.simpleSelectContainer {
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 6px;
+  cursor: pointer; }
+  .simpleSelectContainer .simpleSelectDropdown {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+  .simpleSelectContainer .simpleSelectValue {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .simpleSelectContainer .simpleSelectArrow {
+    position: absolute;
+    right: 5px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .simpleSelectContainer .simpleSelectOptions {
+    display: none;
+    position: absolute;
+    margin-top: 6px;
+    top: 100%;
+    width: 100%; }
+    .simpleSelectContainer .simpleSelectOptions .simpleSelectOption {
+      margin: 0 -7px;
+      padding: 4px 6px;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-bottom: 1px solid lightgrey; }
+      .simpleSelectContainer .simpleSelectOptions .simpleSelectOption.wasSelected {
+        background-color: lightgrey; }
+      .simpleSelectContainer .simpleSelectOptions .simpleSelectOption:last-child {
+        border-bottom: 1px solid black; }
+      .simpleSelectContainer .simpleSelectOptions .simpleSelectOption:hover {
+        background-color: #216dfc;
+        color: #fff; }
+  .simpleSelectContainer .simpleSelected {
+    display: none; }
+
+/* JUST TESTING - TO BE REMOVED */
+select {
+  width: 200px;
+  height: 25px; }
+
+/*# sourceMappingURL=simple-select.css.map */
